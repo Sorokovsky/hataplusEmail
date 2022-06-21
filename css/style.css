@@ -9,6 +9,10 @@ table{
     font-family: Arial, sans-serif;
     font-size: 13px;
 }
+img{
+    margin: 0;
+    vertical-align: bottom;
+}
 .header{
     background-color: #dcdce5;
 }
@@ -86,6 +90,12 @@ p{
 .pb30{
     padding-bottom: 30px;
 }
+.pt28{
+    padding-top: 28px;
+}
+.pb25{
+    padding-bottom: 25px;
+}
 .title{
     font-size: 24px;
     color: rgb(36, 36, 43);
@@ -127,4 +137,68 @@ p{
     color: rgb(36, 36, 43);
     font-weight: bold;
     line-height: 1.286;
+    padding-bottom: 10px;
+}
+.t{
+    color: rgb(102, 102, 102);
+    line-height: 1.385;
+    text-align: center;
+    width: 100%;
+      
+}
+.house__title{
+    font-size: 16px;
+    color: rgb(31, 31, 86);
+    font-weight: bold;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+.house__text{
+    color: rgb(153, 153, 166);
+    line-height: 1.462;
+    font-style: normal;
+}
+.pr{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1;
+    padding-bottom: 13px;
+    text-align: center;
+    display: inline-block;
+}
+.white{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    line-height: 1.538;
+    text-align: center;
+    padding-bottom: 12px;
+}
+.btn2{
+    font-size: 14px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    width: 170px;
+    text-decoration: none;
+    vertical-align: center ;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(31, 31, 86);
+    background-image: url('../img/btn2.png');
+    border-radius: 20px;
+}
+.copy{
+    font-size: 13px;
+    color: rgb(153, 153, 166);
+    line-height: 1.385;
+    text-align: center; 
+    font-style: normal;   
+}
+.end{
+    font-size: 11px;
+    color: rgb(253, 131, 0);
+    line-height: 1.636;
+      
 }
